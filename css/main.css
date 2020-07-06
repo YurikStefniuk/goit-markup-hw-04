@@ -39,9 +39,12 @@ a {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8)),
-    url("../img/Header-img-zip.jpg");
-  background-image: url("../img/Header-img-zip.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../img/Header-img-zip.jpg);
 }
 .hero-title {
   font-family: Roboto;
@@ -89,25 +92,6 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--background-color);
-}
-.mail::before {
-  display: inline-block;
-  content: " ";
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-image: url(../icons/mail.svg);
-  background-size: contain;
-}
-.phone::before {
-  display: inline-block;
-  content: " ";
-  width: 10px;
-  height: 15px;
-  margin-right: 10px;
-  margin-left: 30px;
-  background-image: url(../icons/smartphone.svg);
-  background-size: contain;
 }
 .link-phone-mail:not(:last-child) {
   margin-right: 50px;
