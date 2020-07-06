@@ -39,6 +39,10 @@ a {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.8),
@@ -83,6 +87,15 @@ a {
 .link:hover,
 .link:focus {
   color: var(--hover-focus-color);
+}
+.social-links {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 .phone-mail {
   font-family: Roboto;
@@ -219,39 +232,18 @@ a {
   text-align: center;
   background-color: var(--back-color);
 }
-.logotip::before {
-  display: block;
-  content: "";
+.logotip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
   height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-color: var(--back-color);
 }
-.main-logotip1::before {
-  background-image: url(../icons/main-logo1.svg);
-  background-size: 70px;
-}
-.main-logotip2::before {
-  background-image: url(../icons/main-logo2.svg);
-  background-size: 70px;
-}
-.main-logotip3::before {
-  background-image: url(../icons/main-logo3.svg);
-  background-size: 70px;
-}
-.main-logotip4::before {
-  background-image: url(../icons/main-logo4.svg);
-  background-size: 70px;
-}
-.main-logo-description {
+/* .main-logo-description:not(:last-child) {
   margin-left: 30px;
-}
-.main-logo-description :last-child {
-  margin-left: auto;
-  margin-right: 30px;
-}
-
+} */
 .what-are-we-doing {
   display: flex;
 }
@@ -284,7 +276,7 @@ a {
   width: 170px;
   height: 90px;
   background-color: var(--text-color);
-  text-align: center;
+  align-items: center;
   justify-content: center;
 }
 .logo-clients:not(:last-child) {
