@@ -261,6 +261,10 @@ a {
   display: flex;
   justify-content: center;
 }
+.team-info {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
 .team-info:not(:last-child) {
   margin-right: 30px;
 }
@@ -344,11 +348,17 @@ a {
   width: 370px;
 }
 .each-block-portfolio {
+  text-align: center;
   margin-right: 30px;
   margin-bottom: 50px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 .each-block-portfolio:nth-child(3n) {
   margin-right: 0px;
+}
+.portfolio-span {
+  padding-bottom: 20px;
 }
 .img-size {
   width: 370px;
