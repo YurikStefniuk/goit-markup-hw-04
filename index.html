@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -23,31 +23,38 @@
           >Web
           <span class="main-link-color">Studio</span>
         </a>
-        <ul class="site-nav">
-          <li class="item"><a href="/index.html" class="link">Студия</a></li>
-          <li class="item">
-            <a href="./portfolio.html" class="link">Портфолио</a>
-          </li>
-          <li class="item"><a href="/" class="link">Контакты</a></li>
-        </ul>
-        <ul class="auth-nav">
-          <li class="item">
-            <a href=" mailto:info@devstudio.com" class="link phone-mail mail">
-              <svg class="button-icon" width="16" height="12">
-                <use href="./icons/symbol-defs2.svg#icon-mail"></use>
-              </svg>
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="link phone-mail phone">
-              <svg class="button-icon" width="16" height="12">
-                <use href="./icons/symbol-defs2.svg#icon-phone-logo"></use>
-              </svg>
-              +38 096 111 11 11
-            </a>
-          </li>
-        </ul>
+        <div class="header-main-page">
+          <ul class="site-nav">
+            <li class="item"><a href="/index.html" class="link">Студия</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="/" class="link">Контакты</a></li>
+          </ul>
+          <address>
+            <ul class="auth-nav">
+              <li class="item">
+                <a
+                  href=" mailto:info@devstudio.com"
+                  class="link phone-mail mail"
+                >
+                  <svg class="button-icon" width="16" height="12">
+                    <use href="./icons/symbol-defs2.svg#icon-mail"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="link phone-mail phone">
+                  <svg class="button-icon" width="16" height="12">
+                    <use href="./icons/symbol-defs2.svg#icon-phone-logo"></use>
+                  </svg>
+                  +38 096 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </nav>
     </header>
     <!-- основная инфо -->
@@ -76,20 +83,18 @@
               формированию позиции.
             </p>
           </li>
-          <div>
-            <li class="main-logo-description">
-              <div class="logotip">
-                <svg class="main-icon-svg" width="66" height="70">
-                  <use href="./icons/symbol-defs2.svg#icon-main-logo2"></use>
-                </svg>
-              </div>
-              <h3 class="item-title">Пунктуальность</h3>
-              <p>
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
-            </li>
-          </div>
+          <li class="main-logo-description">
+            <div class="logotip">
+              <svg class="main-icon-svg" width="66" height="70">
+                <use href="./icons/symbol-defs2.svg#icon-main-logo2"></use>
+              </svg>
+            </div>
+            <h3 class="item-title">Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
           <li class="main-logo-description">
             <div class="logotip">
               <svg class="main-icon-svg" width="66" height="70">
@@ -163,8 +168,12 @@
         <h3 class="section-title our-team">Наша Команда</h3>
         <ul class="team-section">
           <li class="team-info">
-            <img src="./img/team1.png" alt="picture Николай Кучеренко"
-            class="img-team" width: 370px; height: 294px; />
+            <img
+              src="./img/team1.png"
+              alt="picture Николай Кучеренко"
+              width="270px"
+              height="260px"
+            />
             <p class="team-name">Николай Кучеренко</p>
             <span class="team-proffession">
               Product Designer
@@ -201,8 +210,12 @@
             </ul>
           </li>
           <li class="team-info">
-            <img src="./img/team2.png" alt="picture Ольга Иванова"
-            class="img-team" width: 370px; height: 294px; />
+            <img
+              src="./img/team2.png"
+              alt="picture Ольга Иванова"
+              width="270px"
+              height="260px"
+            />
             <p class="team-name">Ольга Иванова</p>
             <span class="team-proffession">
               Frontend Developer
@@ -239,8 +252,12 @@
             </ul>
           </li>
           <li class="team-info">
-            <img src="./img/team3.png" alt="picture Андрей Шевченко"
-            class="img-team" width: 370px; height: 294px; />
+            <img
+              src="./img/team3.png"
+              alt="picture Андрей Шевченко"
+              width="270px"
+              height="260px"
+            />
             <p class="team-name">Андрей Шевченко</p>
             <span class="team-proffession">
               Marketing
@@ -277,8 +294,12 @@
             </ul>
           </li>
           <li class="team-info">
-            <img src="./img/team4.png" alt="picture Иван Николаев"
-            class="img-team" width: 370px; height: 294px; />
+            <img
+              src="./img/team4.png"
+              alt="picture Иван Николаев"
+              width="270px"
+              height="260px"
+            />
             <p class="team-name">Иван Николаев</p>
             <span class="team-proffession">UI Designer</span>
             <ul class="app-links">
